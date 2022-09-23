@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+}
+header{
+    background-color: rgb(71, 177, 39);
+    width: 100%;
+    padding: 50px;
+}
+.container{
+    width: 80%;
+    background-color: rgb(49, 42, 42);
+    margin: auto;
+}
+footer{
+    width: 100%;
+    background-color: rgb(0, 61, 5);
+    padding: 50px;
+    display: block;
+}
+.logo{
+    max-width: 40px;
+}
+figure{
+    background-color: rgb(49, 42, 42);
+    width: 60px;
+    text-align: center;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+ul li{
+    margin-top: 5px;
+}
+
+
+.titulo{
+    color: #eee;
+    text-align: center;
+    font-size: 2em;
+}
+.parag{
+    font-size: 1.3em;
+    margin: 30px;
+}
+section{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+#s1{
+    background-color: #f00;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+#s2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width:600px){
+    header{
+        background-color: #eee;
+    }
+}
